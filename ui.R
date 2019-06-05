@@ -12,7 +12,7 @@ ui = fluidPage(
   
   div(id = "header", align = "center", 
       img(src='Army.svg', align = "left",width = 100, height = 100 ),
-      img(src='FuturesAndConceptsCenter.png', align = "right", width = 125, height = 120 ),
+      img(src='FuturesAndConceptsCenter.png', align = "right", width = 115, height = 110 ),
       h1("Vehicle Replacement Forecast")),
   
   tabsetPanel(id = "tabs",
