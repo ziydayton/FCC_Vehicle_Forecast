@@ -101,7 +101,7 @@ server <- function(input, output) {
       fitMethods <- GenerateMultipleFitMethods()
       if (input$rbFit == 0) {  #DEFAULT case
         ##begin of auto deterine fit methods
-        print(paste0("Current Fit Index: ", input$rbFit, "."))
+        # print(paste0("Current Fit Index: ", input$rbFit, "."))
         
         ##Begin Auto Fit
         fits <- GenerateMultipleFits(ts.df = ts.month.train, h.int = 12)
@@ -123,7 +123,7 @@ server <- function(input, output) {
       } else {
         
         ##begin user selected fit methods
-        print(paste0("Current Fit Index: ", input$rbFit, "."))
+        # print(paste0("Current Fit Index: ", input$rbFit, "."))
        
         fit.index <<- as.numeric(input$rbFit)
         
