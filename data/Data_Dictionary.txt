@@ -1,0 +1,24 @@
+Auto_Info.csv:  (This file sets the parameters; bounds the problem.)  These are the minimum data requriements; there may be additional data presented.
+
+     Bumper_Number -- The bumper number of the vehicle - this could be the license plate number, but should be a short way that reference the vehicle where all involved understand which vehicle you are referencing.
+
+     Veh_Type -- This is a brief description of the vehicle -- e.g. 2014 BMW 323Xi
+
+     IOC_Date -- This is the 'born on' date.  When was it manufactured.  This is the start of life.
+
+     FOC_Date -- This is the first use date.  When did this vehicle first go into use?
+
+(NOTE:  We can substitute 'Mileage' for any unit of measure for use.)
+     FOC_Mileage -- This is the mileage at first use.  This covers the small mileage on a new vehicle, or the case of a used vehicle.  
+
+     EOL_Mileage --  What is the mileage that the vehicle is no longer desireable for use.  i.e. For me, I want my vehicles to remain under 100,000 miles.
+
+     EOL_Time -- How many years do I desire to have this vehicle?  At a certain point a vehicle cost raises.  This can also be viewed as setting the expiration date.  
+
+
+***BREAK -- SEPERATE/DIFFERENT FILE(S)***
+XX01_Usage.csv (There is one usage file for each vehicle and the XX01 reference the Bumper_Number identified above.)  These are the minimum data requriements; there may be additional data presented.
+
+     Date -- The date of use.  (I recommend picking a date format and staying consistent.
+
+     Miles -- the number of miles driven on this date.  Note, this can also be the odometer reading on the specific date, but we would need to specifiy up front.)
